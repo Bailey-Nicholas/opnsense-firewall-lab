@@ -1,0 +1,30 @@
+﻿# OPNsense configuration backups
+config-OPNsense*.xml
+config.xml
+*.backup
+*.bak
+
+# Private keys and certificate bundles
+*.key
+*.p12
+*.pfx
+
+# Certificates and certificate requests
+*.pem
+*.crt
+*.csr
+
+# Environment files and secrets
+.env
+.env.*
+*.secret
+secrets/
+
+# Local temporary files
+*.log
+*.tmp
+*.swp
+
+# Windows metadata
+Thumbs.db
+Desktop.ini
