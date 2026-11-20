@@ -1,4 +1,4 @@
-﻿# OPNsense Firewall & Network Security Lab
+# OPNsense Firewall & Network Security Lab
 
 A hands-on network security and firewall administration lab built using Proxmox VE and OPNsense.
 
@@ -42,6 +42,8 @@ This project documents the design, configuration, testing, troubleshooting, and 
 
 | Document | Description |
 |---|---|
+| [Lab Architecture](docs/01-lab-architecture.md) | Proxmox virtual networking, VM roles, and network isolation |
+| [VLAN Configuration](docs/03-vlan-configuration.md) | VLAN 10, DHCP, routing, firewall policies, and connectivity testing |
 | [Certificate Management](docs/05-certificate-management.md) | Internal CA, TLS certificates, HTTPS configuration, and validation |
 | [Backup and Recovery](docs/06-backup-and-recovery.md) | Encrypted configuration backups, USB passthrough, SHA-256 verification, and recovery planning |
 
